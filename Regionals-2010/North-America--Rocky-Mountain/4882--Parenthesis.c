@@ -149,7 +149,6 @@ void proccess(void)
 
 int main(void)
 {
-    init_environment();
     while( gets(line) ) /* In fact, `gets` is not recommended. */
     {
         init_memory();
